@@ -1,0 +1,12 @@
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\bin\Release\form2wpf.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\bin\Release\form2wpf.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\ResolveAssemblyReference.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\form2wpf.baml
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\form2wpf.g.cs
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\form2wpf_MarkupCompile.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\form2wpf.g.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\form2wpf.Properties.Resources.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\GenerateResource.read.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\GenerateResource.write.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\form2wpf.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Release\form2wpf.pdb

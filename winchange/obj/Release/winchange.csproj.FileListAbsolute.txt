@@ -1,0 +1,5 @@
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\winchange\bin\Release\winchange.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\winchange\bin\Release\winchange.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\winchange\obj\Release\ResolveAssemblyReference.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\winchange\obj\Release\winchange.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\winchange\obj\Release\winchange.pdb

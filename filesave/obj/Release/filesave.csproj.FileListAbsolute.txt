@@ -1,0 +1,12 @@
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\bin\Release\filesave.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\bin\Release\filesave.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\ResolveAssemblyReference.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\filesave.baml
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\filesave.g.cs
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\filesave_MarkupCompile.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\filesave.g.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\filesave.Properties.Resources.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\GenerateResource.read.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\GenerateResource.write.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\filesave.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\filesave\obj\Release\filesave.pdb

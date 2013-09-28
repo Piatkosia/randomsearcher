@@ -1,0 +1,16 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfApplication1.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="640" Height="480">
+
+	 <Grid Unloaded="papa">
+        <Button Content="Generuj" Height="24" HorizontalAlignment="Left" Margin="109,199,0,0" Name="generate" VerticalAlignment="Top" Width="237" Click="generate_Click" />
+        <Label Content="Ile plików w liście?" Height="28" HorizontalAlignment="Left" Margin="12,15,0,0" Name="label1" VerticalAlignment="Top" />
+        <CheckBox Content="Pokaż konsolę" Height="16" HorizontalAlignment="Left" Margin="398,152,0,0" Name="checkBox1" VerticalAlignment="Top" Checked="checkBox1_Checked" Unchecked="checkBox1_Unchecked" />
+        <Label Content="Skąd brać pliki?" Height="28" HorizontalAlignment="Left" Margin="12,64,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Gdzie zapisać listę?" Height="28" HorizontalAlignment="Left" Margin="12,104,0,0" Name="label3" VerticalAlignment="Top" />
+    </Grid>
+</Window>

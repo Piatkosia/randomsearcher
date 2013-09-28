@@ -1,0 +1,12 @@
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\bin\Debug\FolderEntry.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\bin\Debug\FolderEntry.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\UserControl1.baml
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\UserControl1.g.cs
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\FolderEntry_MarkupCompile.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\FolderEntry.g.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\Tools.Properties.Resources.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\FolderEntry.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\FolderEntry\obj\Debug\FolderEntry.pdb

@@ -1,0 +1,12 @@
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\bin\Release\updown.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\bin\Release\updown.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\ResolveAssemblyReference.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\updownwrite.baml
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\updownwrite.g.cs
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\updown_MarkupCompile.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\updown.g.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\updown.Properties.Resources.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\GenerateResource.read.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\GenerateResource.write.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\updown.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\updown\obj\Release\updown.pdb

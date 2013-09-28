@@ -1,0 +1,12 @@
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\bin\Debug\form2wpf.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\bin\Debug\form2wpf.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\form2wpf.baml
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\form2wpf.g.cs
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\form2wpf_MarkupCompile.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\form2wpf.g.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\form2wpf.Properties.Resources.resources
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\form2wpf.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\form2wpf\obj\Debug\form2wpf.pdb

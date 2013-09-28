@@ -1,0 +1,1 @@
+Gdzie szuka†?  Co˜ nie wyszˆo:(Index was outside the bounds of the array.programikSystem.IndexOutOfRangeException
