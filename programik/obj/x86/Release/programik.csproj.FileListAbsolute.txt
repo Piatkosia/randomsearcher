@@ -1,7 +1,0 @@
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Release\programik.exe
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Release\programik.pdb
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Release\RandomSearcher.dll
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Release\RandomSearcher.pdb
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Release\ResolveAssemblyReference.cache
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Release\programik.exe
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Release\programik.pdb
