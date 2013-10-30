@@ -21,17 +21,17 @@ namespace GeneratorPlaylisty
                 ObjMain.Closed += (s, e) => System.Windows.Threading.Dispatcher.ExitAllFrames();
                 System.Windows.Threading.Dispatcher.Run();
             }
-            catch (Exception ex) { }
+            catch (Exception ex) {
+                MessageBox.Show("Zakończono generowanie przed czasem.");
+            }
         }
-        static void Main(string[] args) {
+        static void Main(params string[] args) {
             if (args.Length == 0)
             {
+                Console.In.Close();
                 var thread = new Thread(new ThreadStart(DisplayFormThread));
-                thread.SetApartmentState(ApartmentState.STA);
+                thread.ApartmentState = ApartmentState.STA;
                 thread.Start();
-                thread.Join();
-                MainWindow okno = new MainWindow();
-                okno.Show();
             }
             else ObslugaZcmd(args);
             Console.ReadKey();

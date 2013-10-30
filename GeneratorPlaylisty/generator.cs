@@ -40,11 +40,22 @@ namespace GeneratorPlaylisty
             StreamWriter plik = new StreamWriter(cel, true);
             foreach (string a in result)
             {
-                Console.WriteLine(a);
-                plik.WriteLine(a);
+                zapisz(a, plik);
             }
             plik.Close();
             MessageBox.Show("Zakończono generowanie");
+        
+        }
+
+        private void zapisz(string a, StreamWriter plik)
+        {
+            if (a.Trim().Length > 0)
+            {
+                Console.WriteLine(a);
+                plik.WriteLine(a);
+            }
+            else Console.Write("");
+ 
         }
     }
 }

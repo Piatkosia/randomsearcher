@@ -24,17 +24,17 @@ namespace GeneratorPlaylisty
         static generator pow;
         public MainWindow()
         {
-            InitializeComponent();
-            if (isconsoleapplication == false)
-                consolemanager.hideconsole();
-            else this.Visibility = System.Windows.Visibility.Collapsed;
-           pow = new generator();
-           baza.Text += "\n";
-           foreach (string a in pow.ext) {
-               baza.Text += (" " + a + ",");
-           }
-        }
-
+                InitializeComponent();
+                if (isconsoleapplication == false)
+                    consolemanager.hideconsole();
+                else this.Visibility = System.Windows.Visibility.Collapsed;
+                pow = new generator();
+                baza.Text += "\n";
+                foreach (string a in pow.ext)
+                {
+                    baza.Text += (" " + a + ",");
+                }
+            }
         private void generate_Click(object sender, RoutedEventArgs e)
         {
             if (ile.NumValue < 0) MessageBox.Show("Tylu nie dam rady znaleźć.");

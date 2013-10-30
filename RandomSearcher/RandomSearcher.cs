@@ -29,7 +29,17 @@ namespace Finders
             try
             {
                 if (rgFiles.Count == 0) throw new FileNotFoundException();
-                file = rgFiles[R.Next(0, rgFiles.Count)] ;
+                else
+                {
+                    int i = R.Next(0, rgFiles.Count);
+                    file = rgFiles[i];
+                    rgFiles.RemoveAt(i);
+                    if (rgFiles.Count == 0)
+                    {
+                        wylosowano = false;
+                        generuj(path);
+                    }
+                }
             }
             catch (UnauthorizedAccessException e) {
                 rgFiles.Clear();

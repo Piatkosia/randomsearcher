@@ -1,7 +1,11 @@
-c:\users\piątkosia\documents\visual studio 2010\Projects\programik\programik\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\piątkosia\documents\visual studio 2010\Projects\programik\programik\bin\Debug\programik.exe
-c:\users\piątkosia\documents\visual studio 2010\Projects\programik\programik\bin\Debug\programik.pdb
-c:\users\piątkosia\documents\visual studio 2010\Projects\programik\programik\obj\x86\Debug\programik.exe
-c:\users\piątkosia\documents\visual studio 2010\Projects\programik\programik\obj\x86\Debug\programik.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Debug\programik.exe.manifest
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Debug\programik.application
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Debug\programik.exe
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Debug\programik.pdb
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Debug\RandomSearcher.dll
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\bin\Debug\RandomSearcher.pdb
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Debug\programik.exe.manifest
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Debug\programik.application
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Debug\programik.exe
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\programik\obj\x86\Debug\programik.pdb
