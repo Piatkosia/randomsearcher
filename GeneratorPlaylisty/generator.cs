@@ -37,6 +37,10 @@ namespace GeneratorPlaylisty
 
             string[] result = new string[p];
             result = RandomSearcher.szukaj(sciezka, p, ext.ToArray());
+            if (result == null) {
+                MessageBox.Show("Nic nie znaleziono:(");
+                return;
+            }
             StreamWriter plik = new StreamWriter(cel, true);
             foreach (string a in result)
             {

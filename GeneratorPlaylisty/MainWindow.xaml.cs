@@ -37,7 +37,7 @@ namespace GeneratorPlaylisty
             }
         private void generate_Click(object sender, RoutedEventArgs e)
         {
-            if (ile.NumValue < 0) MessageBox.Show("Tylu nie dam rady znaleźć.");
+            if (ile.NumValue <= 0) MessageBox.Show("Tylu nie dam rady znaleźć.");
             else pow.szukaj(ile.NumValue, skad.Text, gdzie.Text);
             skad.Text = "";
             gdzie.Text = "";

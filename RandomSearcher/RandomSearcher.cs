@@ -25,30 +25,35 @@ namespace Finders
         public static string szukaj(string path)
         {
             string file = null;
+            bool bylo = false;
             generuj(path);
             try
             {
-                if (rgFiles.Count == 0) throw new FileNotFoundException();
+                if (rgFiles.Count == 0) return null;
                 else
                 {
                     int i = R.Next(0, rgFiles.Count);
                     file = rgFiles[i];
                     rgFiles.RemoveAt(i);
-                    if (rgFiles.Count == 0)
+                    if (rgFiles.Count == 0 && bylo == true)
                     {
                         wylosowano = false;
+                        bylo = true;
                         generuj(path);
                     }
+                    else if (bylo == true) {
+                        if (rgFiles.Count == 0) {
+                            return null; 
+                        }
+                        else bylo = false;
+                    }
                 }
+
             }
             catch (UnauthorizedAccessException e) {
                 rgFiles.Clear();
                 rgFiles = new List<string>(Directory.EnumerateFiles(path, "*.*", SearchOption.TopDirectoryOnly));
                 if (rgFiles.Count == 0) throw new FileNotFoundException();
-            }
-            catch (FileNotFoundException e)
-            {
-                MessageBox.Show("Nie mogę znaleźć :(");
             }
             return file;
         }
@@ -64,13 +69,16 @@ namespace Finders
                 MessageBox.Show("Nie mam tu czego szukać");
                 return null;
             }
-            wyniki = new string[count];
-            for (int i = 0; i < count; i++)
+            else
             {
-                wyniki[i] = szukaj(path);
-                if (wyniki[i] == null) { wyniki[i] = null ; break; }
+                wyniki = new string[count];
+                for (int i = 0; i < count; i++)
+                {
+                    wyniki[i] = szukaj(path);
+                    if (wyniki[i] == null) { wyniki[i] = null; break; }
+                }
+                return wyniki;
             }
-            return wyniki;
         }
         /// <summary>
         /// Ta funkcja zakłada że szukanymi są ścieżki i wyszukuje tylko takich, które mają dany typ. Przykład typu ".txt"
@@ -86,29 +94,36 @@ namespace Finders
                 return null;
             }
             wyniki = new string[count];
-            for (int i = 0; i < count; i++)
+            try
             {
-                do 
+                for (int i = 0; i < count; i++)
                 {
-                    wyniki[i] = szukaj(path);
-                    if (wyniki[i] == null) break;
+                    do
+                    {
+                        wyniki[i] = szukaj(path);
+                        if (wyniki[i] == null) break;
 
-                }while (nalezy(wyniki[i], kryterium) == false);
-                if (wyniki[i] == null) break;
+                    } while (nalezy(wyniki[i], kryterium) == false);
+                    if (wyniki[i] == null)
+                    {
+                        throw new FileNotFoundException();
+                    }
+                }
+                return wyniki;
             }
-            return wyniki;
+            catch (FileNotFoundException e) {
+                return null;
+            }
         }
-
         private static bool nalezy(string p, string[] kryterium)
         {
             string tmp = Path.GetExtension(p);
             bool wtf = false;
-            foreach (string a in kryterium) {
+            foreach (string a in kryterium)
+            {
                 if (tmp == null) break;
                 if (a == tmp) wtf = true;
             }
             return wtf;
         }
-
-    }
-}
+}}

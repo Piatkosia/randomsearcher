@@ -14,15 +14,15 @@ namespace GeneratorPlaylisty
     {
         static private void DisplayFormThread()
         {
+            MainWindow ObjMain = null;
             try
             {
-                MainWindow ObjMain = new MainWindow();
+                ObjMain = new MainWindow();
                 ObjMain.Show();
                 ObjMain.Closed += (s, e) => System.Windows.Threading.Dispatcher.ExitAllFrames();
                 System.Windows.Threading.Dispatcher.Run();
             }
-            catch (Exception ex) {
-                MessageBox.Show("Zakończono generowanie przed czasem.");
+            catch (Exception) {
             }
         }
         static void Main(params string[] args) {
@@ -33,8 +33,11 @@ namespace GeneratorPlaylisty
                 thread.ApartmentState = ApartmentState.STA;
                 thread.Start();
             }
-            else ObslugaZcmd(args);
-            Console.ReadKey();
+            else
+            {
+                ObslugaZcmd(args);
+                Console.ReadKey();
+            }
         }
 
         private static void ObslugaZcmd(string[] args)
