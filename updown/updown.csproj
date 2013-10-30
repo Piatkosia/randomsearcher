@@ -8,7 +8,7 @@
     <ProjectGuid>{B175F5F1-74FD-4C16-83BD-B396E704EC91}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>updown</RootNamespace>
+    <RootNamespace>Tools</RootNamespace>
     <AssemblyName>updown</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>

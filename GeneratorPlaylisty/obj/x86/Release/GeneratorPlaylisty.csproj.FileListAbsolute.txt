@@ -2,17 +2,7 @@ C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPla
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\GeneratorPlaylisty.exe
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\GeneratorPlaylisty.pdb
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\CommandLine.dll
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\filesave.dll
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\FolderEntry.dll
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\form2wpf.dll
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\RandomSearcher.dll
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\updown.dll
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\winchange.dll
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\filesave.pdb
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\FolderEntry.pdb
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\form2wpf.pdb
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\updown.pdb
-C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\winchange.pdb
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\RandomSearcher.pdb
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\CommandLine.xml
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\obj\x86\Release\ResolveAssemblyReference.cache
@@ -32,3 +22,5 @@ C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPla
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\GeneratorPlaylisty.application
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\obj\x86\Release\GeneratorPlaylisty.exe.manifest
 C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\obj\x86\Release\GeneratorPlaylisty.application
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\tools.dll
+C:\Users\piątkosia\Documents\Visual Studio 2010\Projects\programik\GeneratorPlaylisty\bin\Release\tools.pdb

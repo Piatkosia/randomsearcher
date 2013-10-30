@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Finders;
-using winchange;
+using Tools;
 namespace GeneratorPlaylisty
 {
     /// <summary>

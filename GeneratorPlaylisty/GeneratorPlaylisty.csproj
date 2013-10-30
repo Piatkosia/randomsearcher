@@ -170,29 +170,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\filesave\filesave.csproj">
+    <ProjectReference Include="..\filesave\wpfTools.csproj">
       <Project>{A12AF5A0-16ED-45FB-9C3F-6CD176D7625F}</Project>
-      <Name>filesave</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FolderEntry\FolderEntry.csproj">
-      <Project>{DBB83782-5773-4EDA-813C-6B056B3DED49}</Project>
-      <Name>FolderEntry</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\form2wpf\form2wpf.csproj">
-      <Project>{CA99C9BF-D6BD-42E2-9AE9-7A484FDB000F}</Project>
-      <Name>form2wpf</Name>
+      <Name>wpfTools</Name>
     </ProjectReference>
     <ProjectReference Include="..\RandomSearcher\RandomSearcher.csproj">
       <Project>{752D7C45-3B76-4CD3-9886-75DB832B764A}</Project>
       <Name>RandomSearcher</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\updown\updown.csproj">
-      <Project>{B175F5F1-74FD-4C16-83BD-B396E704EC91}</Project>
-      <Name>updown</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\winchange\winchange.csproj">
-      <Project>{E531D453-6F72-4614-A99A-3D90601FFC3B}</Project>
-      <Name>winchange</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
