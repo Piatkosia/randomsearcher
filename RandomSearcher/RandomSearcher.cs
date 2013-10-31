@@ -50,7 +50,7 @@ namespace Finders
                 }
 
             }
-            catch (UnauthorizedAccessException e) {
+            catch (UnauthorizedAccessException) {
                 rgFiles.Clear();
                 rgFiles = new List<string>(Directory.EnumerateFiles(path, "*.*", SearchOption.TopDirectoryOnly));
                 if (rgFiles.Count == 0) throw new FileNotFoundException();
@@ -111,7 +111,7 @@ namespace Finders
                 }
                 return wyniki;
             }
-            catch (FileNotFoundException e) {
+            catch (FileNotFoundException) {
                 return null;
             }
         }

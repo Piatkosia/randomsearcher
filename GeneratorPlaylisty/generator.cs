@@ -24,6 +24,7 @@ namespace GeneratorPlaylisty
             ext.Add(".mp4");
             ext.Add(".flv");
             ext.Add(".avi");
+            ext.Add(".midi");
         }
         public void AddToList(string a)
         {
