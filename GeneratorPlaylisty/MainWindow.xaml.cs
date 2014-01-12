@@ -29,16 +29,22 @@ namespace GeneratorPlaylisty
                     consolemanager.hideconsole();
                 else this.Visibility = System.Windows.Visibility.Collapsed;
                 pow = new generator();
-                baza.Text += "\n";
-                foreach (string a in pow.ext)
-                {
-                    baza.Text += (" " + a + ",");
-                }
+                UpdateExtList();
             }
+
+        private void UpdateExtList()
+        {
+            baza.Text = "Aktualnie w bazie:  \n";
+            foreach (string a in pow.ext)
+            {
+                baza.Text += (" " + a + ",");
+            }
+        }
         private void generate_Click(object sender, RoutedEventArgs e)
         {
             if (ile.NumValue <= 0) MessageBox.Show("Tylu nie dam rady znaleźć.");
             else pow.szukaj(ile.NumValue, skad.Text, gdzie.Text);
+            zasobnik.ToolTipText = "wyszukiwanie zakończone";
             skad.Text = "";
             gdzie.Text = "";
             ile.NumValue = 0;
@@ -76,20 +82,32 @@ namespace GeneratorPlaylisty
                 newext.Text = "";
                 return;
             }
-
+            bool firstchar = true;
             foreach (char c in newext.Text)
             {
-                // Jeśli rozszerzenie zawiera znaki z poniższych zakresów (%^-; etc) zgłoś błąd
-                if (((int)c < 48) || ((int)c > 57 && (int)c < 65) || ((int)c > 90 && (int)c < 97) || ((int)c > 122))
+               if (firstchar == true){
+                if ((int)c == 46)
                 {
-                    MessageBox.Show("Rozszerzenie zawiera niedozwolone znaki.");
+                    //pierwsza może być kropka;)
+                }
+                else {
+                    MessageBox.Show("Rozszerzenie musi się zaczynać od kropki.");
                     newext.Text = "";
                     return;
                 }
-            }
+               }
 
+                // Jeśli rozszerzenie zawiera znaki z poniższych zakresów (%^-; etc) zgłoś błąd
+                if ((((int)c < 48) || ((int)c > 57 && (int)c < 65) || ((int)c > 90 && (int)c < 97) || ((int)c > 122)) && firstchar == false)
+                {
+                    MessageBox.Show(string.Format("Rozszerzenie zawiera niedozwolony znak.: {0}", c.ToString()));
+                    newext.Text = "";
+                    return;
+                }
+                firstchar = false;
+            }
             pow.AddToList(newext.Text);
-            baza.Text += " " + newext.Text;
+            UpdateExtList();
             newext.Text = "";
           
         }

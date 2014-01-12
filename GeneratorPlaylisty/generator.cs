@@ -14,6 +14,11 @@ namespace GeneratorPlaylisty
         public generator()
         {
             ext = new List<string>();
+            AddMultimedia();
+        }
+
+        private void AddMultimedia()
+        {
             ext.Add(".mp3");
             ext.Add(".ogg");
             ext.Add(".mpc");
@@ -28,6 +33,7 @@ namespace GeneratorPlaylisty
         }
         public void AddToList(string a)
         {
+            if (ext.Contains(a)) return;
             ext.Add(a);
         }
 

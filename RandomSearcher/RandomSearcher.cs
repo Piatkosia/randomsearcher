@@ -86,7 +86,7 @@ namespace Finders
         /// <param name="path">ścieżka dostępu</param>
         /// <param name="count">ile ma zwrócić </param>
         /// <param name="kryterium">Lista rozszerzeń</param>
-        /// <returns></returns>
+        /// <returns>Zwraca wynik wyszukiwania</returns>
         public static string[] szukaj(string path, int count, string[] kryterium)
         {
             if (count < 1) {
