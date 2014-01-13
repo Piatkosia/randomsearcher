@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Drawing;
 using Finders;
 using Tools;
 namespace GeneratorPlaylisty
@@ -44,11 +45,12 @@ namespace GeneratorPlaylisty
         {
             if (ile.NumValue <= 0) MessageBox.Show("Tylu nie dam rady znaleźć.");
             else pow.szukaj(ile.NumValue, skad.Text, gdzie.Text);
-            zasobnik.ToolTipText = "wyszukiwanie zakończone";
+            zasobnik.ShowBalloonTip("Wyszukiwanie zakończone", "Zakończono generowanie listy.", Hardcodet.Wpf.TaskbarNotification.BalloonIcon.Info);
             skad.Text = "";
             gdzie.Text = "";
             ile.NumValue = 0;
             Console.Clear();
+            zasobnik.HideBalloonTip();
         }
 
         private void checkBox1_Checked(object sender, RoutedEventArgs e)

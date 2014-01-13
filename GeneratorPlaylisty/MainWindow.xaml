@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:tb="http://www.hardcodet.net/taskbar" 
-        Title="Generator playlist by Piatkosia" Height="328" Width="525"  Closing="Window_Closing"  BorderBrush="Black" Icon="/GeneratorPlaylisty;component/Images/M14-nutka.ICO" xmlns:my="clr-namespace:Tools;assembly=tools">
+        Title="Generator playlist by Piatkosia" Height="328" Width="525"  Closing="Window_Closing"  BorderBrush="Black" Icon="/GeneratorPlaylisty;component/Images/M14-nutka.ICO" xmlns:my="clr-namespace:Tools;assembly=tools" ResizeMode="CanMinimize">
     <Grid Unloaded="papa">
         <tb:TaskbarIcon ToolTipText="Generator playlisty"  Name="zasobnik"/>
         <Image Height="230" HorizontalAlignment="Left" Margin="314,-7,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="129" Source="/GeneratorPlaylisty;component/Images/nutka2.png" />
@@ -18,7 +18,9 @@
         <Button Content="O programie" Height="23" HorizontalAlignment="Left" Margin="27,241,0,0" Name="about" VerticalAlignment="Top" Width="88" Click="about_Click" />
         <Button Content="Dodaj rozszerzenie" Height="23" HorizontalAlignment="Left" Margin="164,148,0,0" Name="extbutton" VerticalAlignment="Top" Width="117" Click="ext_Click" />
         <TextBox Height="23" HorizontalAlignment="Left" Margin="27,148,0,0" Name="newext" VerticalAlignment="Top" Width="120" />
-        <TextBlock Height="57" HorizontalAlignment="Left" Margin="12,180,0,0" Name="baza" Text="Aktualnie w bazie:  " VerticalAlignment="Top" Width="462" TextWrapping="Wrap" Background="#3F00FF00" FontWeight="Bold" Foreground="#FFF5F503" DataContext="{Binding}" />
+        <!--<ScrollViewer Height="55" HorizontalAlignment="Left" Margin="464,180,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="18" VerticalScrollBarVisibility="Auto">-->
+        <TextBlock Height="55" HorizontalAlignment="Left" Margin="12,180,0,0" Name="baza" Text="Aktualnie w bazie:  " VerticalAlignment="Top" Width="462" TextWrapping="Wrap" Background="#3F00FF00" FontWeight="Bold" Foreground="#FFF5F503"/>
+        <!--</ScrollViewer>-->
     </Grid>
     <Window.Background>
         <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
